@@ -1,0 +1,61 @@
+.megabigbox {
+    display: grid;
+    grid-template-columns: 250px 250px 250px 250px 250px 250px;
+    grid-template-rows: 250px 250px 250px; 
+}
+
+.bigbox1 {
+    grid-column-start: 1;
+    grid-column-end: span 4;
+}
+
+.bigbox2 {
+    text-align: center;
+    font-size: 1.9em;
+    font-weight: bold;
+    border:1px solid black;
+    width: 498px;
+    grid-column-start: 1; 
+    grid-column-end: span 2; 
+    grid-row: 3;
+}
+
+.bigbox3 {
+    color: grey;
+    border: 1px solid red; 
+    width: 498px;
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    grid-column-start: 3; 
+    grid-column-end: span 4; 
+    grid-row: 3;
+} 
+
+.bigbox3 div {
+    background-color:lightcoral;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    margin-right: 1350px;
+}
+
+.bigbox4 h2 {
+    font-weight:bold;
+    color: goldenrod; 
+} 
+
+.bigbox4 h3 {
+    color: white;
+}
+
+.bigbox4 {
+    background-color: black;
+    padding: 10px;
+    width: 500px;
+    height: 730px;
+    color: grey;
+    grid-column-start: 5;
+    grid-column-end: span 6; 
+} 
+
