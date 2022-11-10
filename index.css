@@ -1,0 +1,41 @@
+@font-face {
+	font-family: "Inter Thin";
+	src: url("assets/fonts/fonteperso.ttf") format("truetype");
+
+}
+
+body{
+    height: 100%;
+}
+
+.menuentier{
+    display : flex;
+    height: 75px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logomenu{
+    height : 50%;
+}
+
+.listemenu{
+    display: flex;
+    list-style: none;
+}
+
+.listemenu li {
+    margin-left: 35px;
+    font-family: 'Inter Thin';
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover{
+    color : red;
+}
