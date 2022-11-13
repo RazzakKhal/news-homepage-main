@@ -1,0 +1,95 @@
+.megabigbox {
+    width: 100%;
+    height: 60%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 250px 200px;
+    grid-gap: 20px; 
+}
+
+.bigbox1 {
+    grid-column-start: 1;
+    grid-column-end: span 2;
+    border: 1px solid black;
+    background-image: url("assets/images/image-web-3-desktop.jpg");
+    background-size: cover;
+}
+
+.bigbox2 {
+    text-align: left;
+    font-size: 1.5em;
+    font-weight: bold;
+    /* width: 250px; */
+    grid-column-start: 1; 
+    grid-column-end: 2; 
+    grid-row: 2;
+}
+
+.bigbox3 {
+    /* display: grid;
+    grid-template-columns: 125px 125px;
+    grid-template-rows: 200px 50px; */
+    color: grey;
+    width: 250px;
+    grid-column-start: 2; 
+    grid-column-end: span 3; 
+    grid-row: 2; 
+ } 
+
+.bigbox3 .item1 {
+    /* grid-column-start: 1;
+    grid-column-end: -1;
+    grid-row: 1; */
+}
+
+.bigbox3 .item2 {
+    background-color:lightcoral;
+    color: white;
+    font-weight: bold;
+    text-align: center; 
+    /* grid-column-start: 1;
+    grid-column-end: span 1;
+    grid-row: 2; */
+    padding : 15px;
+    margin-top: 35px;
+    
+}
+
+.bigbox4 h2 {
+    font-size: 2em;
+    font-weight: bold;
+    color: goldenrod; 
+    padding-left: 20px;
+} 
+
+.bigbox4 h3 {
+    color: white;
+    
+}
+
+.bigbox4 {
+    display :flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: black;
+    width: 350px;
+    color: grey;
+    grid-column-start: 3;
+    grid-column-end: 4; 
+    grid-row : 1 / span 2;
+} 
+
+.bigbox4 .item3 {
+    margin-left: 20px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.bigbox4 .item4 {
+    margin: 20px;
+    border-top: 1px solid grey;
+    padding-top: 0;
+    padding-bottom: 0;
+
+}
